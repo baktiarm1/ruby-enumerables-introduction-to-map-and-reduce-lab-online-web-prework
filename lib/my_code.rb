@@ -51,7 +51,18 @@ end
     return val
    end
   
-    
+ def reduce_to_any_true (array)
+   val = false
+   for x in array do 
+   
+     if x == true 
+     val = true
+     break
+     end
+    end
+    return val
+   end
+     
 
 
 
