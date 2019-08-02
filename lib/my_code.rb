@@ -49,9 +49,15 @@ def reduce_to_any_true (array)
     end
   end 
   
- def reduce_to_any_true 
+ def reduce_to_any_true (array)
    
-   for x in 
+   for x in array do 
+     if x = true 
+     return true
+   else 
+     return false
+   end 
+   end 
    
  end 
     
