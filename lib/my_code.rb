@@ -49,14 +49,15 @@ def reduce_to_any_true (array)
     end
   end 
   
- 
-    
+ def reduce_to_any_true 
+   
+   for x in 
+   
+ end 
     
     
 
 
-
-# reduce_to_total returns a running total when given a starting point
 #   reduce_to_all_true returns true when all values are truthy
 #   reduce_to_all_true returns false when any value is false
 #    
