@@ -36,7 +36,7 @@ def reduce_to_total(array, start)
   for x in array 
   sum+=x
   end 
- if start ? return sum + start else return sum end 
+ if start ? return sum + start : return sum end 
 end
 
  def reduce_to_all_true (array)
