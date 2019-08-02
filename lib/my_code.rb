@@ -53,12 +53,11 @@ def reduce_to_any_true (array)
    
    for x in array do 
      if x = true 
-     return true
-   else 
-     return false
+      return true
+     else 
+      return false
+    end 
    end 
-   end 
-   
  end 
     
     
