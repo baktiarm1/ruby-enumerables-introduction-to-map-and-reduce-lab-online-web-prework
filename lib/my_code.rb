@@ -52,14 +52,6 @@ end
    end
   
     
-    
-#   reduce_to_all_true returns true when all values are truthy
-#   reduce_to_all_true returns false when any value is false
-#    
-#  reduce_to_any_true  returns true when a truthy value is present
-#     
-#   reduce_to_any_true returns false when no truthy value is present
-#     
 
 
 
