@@ -60,7 +60,7 @@ def reduce_to_any_true (array)
     end
     return val
    end
- end 
+  
     
     
 #   reduce_to_all_true returns true when all values are truthy
