@@ -49,15 +49,17 @@ def reduce_to_any_true (array)
     end
   end 
   
- def reduce_to_any_true (array)
-   
+ def reduce_to_all_true (array)
+   val = true
    for x in array do 
-     if x = true 
-      return true
-     else 
-      return false
-    end 
-   end 
+   
+     if x == false 
+     val = false
+     break 
+     end
+    end
+    return val
+   end
  end 
     
     
